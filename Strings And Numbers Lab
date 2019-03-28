@@ -1,0 +1,9 @@
+
+var friends = document.querySelector("#friends")
+
+friends.innerHTML = parseInt(document.querySelector("#friends").innerHTML) - 5
+
+var employer =
+document.querySelector("#employer")
+
+employer.innerHTML = employer.innerHTML + "<br>Dr.Kumar"
