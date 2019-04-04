@@ -1,0 +1,30 @@
+//this function makes strings UPPERCASE
+function shout(string) {
+  return string.toUpperCase();
+}
+//this function makes strings lowercase
+function whisper(string) {
+  return string.toLowerCase();
+}
+// this function displays an UPPERCASE version of your string
+function logShout(string) {
+  console.log(string.toUpperCase());
+}
+// this function displays a lowercase version of your string
+function logWhisper(string) {
+  console.log(string.toLowerCase());
+}
+/* 
+This function simulates a grandmother. She responds appropriately if you say "I love you", if you speak too quietly she asks you to speak up, and if you speak loudly enough she will respond loudly.
+*/
+function sayHiToGrandma(string) {
+  if (string == "I love you, Grandma.") {
+    return "I love you, too.";
+  }
+  else if (string.toUpperCase() != string) {
+    return "I can't hear you!";
+  }
+ 
+  else
+    return "YES INDEED!";
+}
