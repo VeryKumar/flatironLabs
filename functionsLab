@@ -1,0 +1,16 @@
+//function that accepts no parameters and returns a string
+function happyHolidays () {
+  return 'Happy holidays!';
+}
+//fuction that accepts a single parameter inserts into a prewritten sentence
+function happyHolidaysTo (name) {
+  return 'Happy holidays, ' + name + '!';
+}
+//function that accepts two parameteres and inserts into a prewritten sentence
+function happyHolidayTo (holiday,name) {
+  return 'Happy ' + holiday + ', ' + name + '!';
+}
+//function that accepts two parameters and inserts into a prewritten sentence
+function holidayCountdown (holiday,days) {
+  return 'It\'s ' + days + ' days until ' + holiday + '!';
+}
